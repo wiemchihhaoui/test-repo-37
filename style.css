@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Itim:regular");
+* {
+  box-sizing: border-box;
+  font-family: "Itim";
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.head1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.head2 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  all: unset;
+  color: white;
+}
+nav button {
+  all: unset;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+}
+
+#hero {
+  width: 80%;
+  height: 450px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.hero-1 {
+  height: 300px;
+  width: 450px;
+  background-image: url("https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+}
+
+.hero-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  right: 10%;
+  bottom: 10%;
+  padding: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.hero-2 h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+
+.hero-3 {
+  width: 75%;
+  height: 350px;
+  background-color: #67bdb0;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+}
+.hero-2 button {
+  all: unset;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+
+#trend {
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin: 50px auto;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#trend1 {
+  /* border: 1px white solid; */
+  width: 80%;
+}
+#trend1 h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#trend button {
+  all: unset;
+  padding: 10px 15px;
+  color: white;
+  background-color: #67bdb0;
+}
+
+#best {
+  background-color: #c8c3bd;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#best1 {
+  /* border: 1px black solid; */
+  width: 40%;
+}
+
+#best2 {
+  /* border: 1px red solid; */
+  width: 40%;
+  display: grid;
+  grid-template: 160px 160px 160px/ 1fr 1fr;
+  gap: 20px;
+}
+
+#best1 h1 {
+  font-size: 4rem;
+}
+
+#best2 div {
+  background-color: #67bdb0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px;
+}
+#best2 div h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+#best1 p {
+  width: 80%;
+  text-align: left;
+}
